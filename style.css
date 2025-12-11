@@ -166,13 +166,32 @@ nav a:hover::after {
 }
 
 .hero-portrait {
-    width: 200px;
-    height: 200px;
-    border-radius: 20px;
+    width: 140px;
+    height: 140px;
+    border-radius: 18px;
     object-fit: cover;
-    box-shadow: 0 12px 26px rgba(0,0,0,0.35);
+
+    /* Ombre premium */
+    box-shadow: 0 12px 28px rgba(0,0,0,0.45);
+
+    /* Bord doré old money */
+    border: 2px solid rgba(199,161,90,0.35);
+
+    /* Smooth animation */
+    transition: transform 0.35s ease, 
+                box-shadow 0.35s ease, 
+                border-color 0.35s ease;
 }
 
+.hero-portrait:hover {
+    transform: scale(1.04);
+
+    /* Ombre plus profonde */
+    box-shadow: 0 18px 38px rgba(0,0,0,0.55);
+
+    /* Doré plus présent */
+    border-color: rgba(199,161,90,0.55);
+}
 .sidebar-name {
     letter-spacing: 0.16em;
     text-transform: uppercase;
