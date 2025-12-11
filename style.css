@@ -752,3 +752,14 @@ nav a:hover::after {
     border-bottom: 2px solid #c7a86f;
     padding-bottom: 6px;
 }
+/* --- SAFETY FIX : ne jamais laisser la photo devenir énorme --- */
+.hero-sidebar img.hero-portrait {
+    width: 160px !important;
+    height: 160px !important;
+    max-width: 160px !important;
+    max-height: 160px !important;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
