@@ -700,3 +700,11 @@ nav a:hover::after {
     text-align: justify;
     text-justify: inter-word;
 }
+.hero-tagline {
+    margin-top: 15px;
+    font-size: 15px;
+    color: #ececf5;
+    opacity: 0.9;
+    line-height: 1.6;
+    font-family: "Inter", sans-serif;
+}
