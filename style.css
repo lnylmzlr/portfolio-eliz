@@ -165,32 +165,26 @@ nav a:hover::after {
     box-shadow: -10px 0 30px rgba(0,0,0,0.35);
 }
 
-.hero-photo {
-    width: 140px;
-    height: 140px;
-    border-radius: 18px;
+/* PHOTO PAGE D’ACCUEIL (portrait rond + taille contrôlée) */
+.hero-portrait {
+    width: 160px;          /* taille normale */
+    height: 160px;
+    border-radius: 50%;    /* rond parfait */
     object-fit: cover;
 
     /* Ombre premium */
-    box-shadow: 0 12px 28px rgba(0,0,0,0.45);
+    box-shadow: 0 10px 22px rgba(0,0,0,0.35);
 
-    /* Bord doré old money */
-    border: 2px solid rgba(199,161,90,0.35);
+    /* Bord doré */
+    border: 3px solid rgba(199,161,90,0.65);
 
-    /* Smooth animation */
-    transition: transform 0.35s ease, 
-                box-shadow 0.35s ease, 
-                border-color 0.35s ease;
+    /* Animation douce */
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
 }
 
-.hero-photo:hover {
-    transform: scale(1.04);
-
-    /* Ombre plus profonde */
-    box-shadow: 0 18px 38px rgba(0,0,0,0.55);
-
-    /* Doré plus présent */
-    border-color: rgba(199,161,90,0.55);
+.hero-portrait:hover {
+    transform: scale(1.05);
+    box-shadow: 0 16px 32px rgba(0,0,0,0.45);
 }
 
 .sidebar-name {
