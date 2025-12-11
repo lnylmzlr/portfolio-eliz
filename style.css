@@ -741,3 +741,20 @@ nav a:hover::after {
         transform: translateY(0);
     }
 }
+/* NAV — Active page highlight */
+.nav-link {
+    color: #ffffff;
+    padding: 8px 12px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #c7a86f; /* doré au survol */
+}
+
+.nav-link.active {
+    color: #c7a86f; /* doré */
+    border-bottom: 2px solid #c7a86f;
+    padding-bottom: 6px;
+}
