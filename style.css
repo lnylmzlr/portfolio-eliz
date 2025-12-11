@@ -763,3 +763,16 @@ nav a:hover::after {
     display: block;
     margin: 0 auto;
 }
+/* Fixe la largeur de la sidebar pour empêcher l’image de s'étirer */
+.hero-sidebar {
+    width: 260px;        /* taille parfaite pour une sidebar élégante */
+    text-align: center;
+    padding: 20px;
+    flex-shrink: 0;      /* empêche l’agrandissement */
+}
+.hero-portrait {
+    width: 140px;
+    height: 140px;
+    border-radius: 18px;
+    object-fit: cover;
+}
