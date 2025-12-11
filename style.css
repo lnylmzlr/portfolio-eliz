@@ -799,3 +799,27 @@ nav a:hover::after {
     background-color: var(--gold);
     color: var(--midnight);
 }
+/* ---------- BACK TO TOP BUTTON ---------- */
+#backToTop {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    border: 2px solid var(--gold);
+    background-color: var(--midnight);
+    color: var(--gold);
+    font-size: 22px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 1000;
+}
+
+#backToTop:hover {
+    transform: translateY(-4px);
+    background-color: var(--gold);
+    color: var(--midnight);
+}
