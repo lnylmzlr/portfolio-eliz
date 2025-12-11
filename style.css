@@ -165,7 +165,7 @@ nav a:hover::after {
     box-shadow: -10px 0 30px rgba(0,0,0,0.35);
 }
 
-.hero-portrait {
+.hero-photo {
     width: 140px;
     height: 140px;
     border-radius: 18px;
@@ -183,7 +183,7 @@ nav a:hover::after {
                 border-color 0.35s ease;
 }
 
-.hero-portrait:hover {
+.hero-photo:hover {
     transform: scale(1.04);
 
     /* Ombre plus profonde */
@@ -192,6 +192,7 @@ nav a:hover::after {
     /* Doré plus présent */
     border-color: rgba(199,161,90,0.55);
 }
+
 .sidebar-name {
     letter-spacing: 0.16em;
     text-transform: uppercase;
