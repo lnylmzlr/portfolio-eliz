@@ -823,3 +823,21 @@ nav a:hover::after {
     background-color: var(--gold);
     color: var(--midnight);
 }
+/* ---------- FOOTER MINIMALISTE ---------- */
+
+.site-footer {
+    width: 100%;
+    text-align: center;
+    padding: 18px 0;
+    margin-top: 60px;
+
+    font-family: "Inter", sans-serif;
+    font-size: 13px;
+    letter-spacing: 0.08em;
+
+    color: var(--midnight);
+    opacity: 0.7;
+
+    border-top: 1px solid rgba(0,0,0,0.08);
+    background-color: var(--bg-soft);
+}
